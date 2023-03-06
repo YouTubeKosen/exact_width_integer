@@ -1,4 +1,8 @@
 #include <stdio.h>
+#include <stdint.h>
+
+int undefined_size;
+uint32_t defined_size;
 
 int main(void) {
     int hoge=0, fuga=1, sum;
